@@ -1561,6 +1561,10 @@ void t_py_generator::generate_service_remote(t_service* tservice) {
            << "uri = ''" << endl
            << "framed = False" << endl
            << "ssl = False" << endl
+           << "validate = True" << endl
+           << "ca_certs = None" << endl
+           << "keyfile = None" << endl
+           << "certfile = None" << endl
            << "http = False" << endl
            << "argi = 1" << endl
            << endl
